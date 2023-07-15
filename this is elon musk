@@ -4,20 +4,37 @@
         <meta charset="utf-8">
         <title>CSS Basics</title>
     </head>
+
+    
+<STYLE TYPE="text/css">
+
+    A:active.l1 { color: #00ff00; background: #006699 }
+    
+    A:visited.l2 { color: #e100ff; background: #00a738 }
+
+    A:hover.l3 { color: #ffffff; background: #000000 }    
+
+    A:hover.f1 { color: #e100ff; background: #00a738; padding:10px}
+
+    A:hover.p1 { color: #000000; background: #ff0000 }    
+
+    .p2 { font-family: sans-serif } 
+
+    .p3 { font-family: Arial } 
+</STYLE>
     <body>
+
 
     <h1 style="margin: 50px; color:black;">Elon Musk</h1>
     <div style="text-align: center;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg/330px-Elon_Musk_Royal_Society_%28crop1%29.jpg" alt="Elon Musk" align="center" width="203"> 
+    <a class="f1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg/330px-Elon_Musk_Royal_Society_%28crop1%29.jpg" alt="Elon Musk" aling="center" width="203"></a>
     </div>
     <h2 style="color: rgb(0, 232, 15)">Información Básica</h2>
-    <p style="text-align: justify; color:rgb(191, 0, 255);">Elon Reeve Musk (Pretoria, 28 de junio de 1971) es un <em>empresario, inversionista y magnate estadounidense de origen sudafricano</em>. <strong>Es el fundador, consejero delegado e ingeniero jefe de SpaceX; inversor ángel, <em>CEO y arquitecto de productos de Tesla, Inc</em></strong>; fundador de The Boring Company; y cofundador de Neuralink y OpenAI. Con un patrimonio neto estimado en unos 252 mil millones de dólares en abril de 2022,2​ Musk es la persona más rica del mundo según el índice de multimillonarios de Bloomberg y la lista de multimillonarios en tiempo real de ForbesElon Reeve Musk (Pretoria, 28 de junio de 1971) es un empresario, inversionista y magnate estadounidense de origen sudafricano. Es el fundador, consejero delegado e ingeniero jefe de SpaceX; inversor ángel, CEO y arquitecto de productos de Tesla, Inc; fundador de The Boring Company; y cofundador de Neuralink y OpenAI. Con un patrimonio neto estimado en unos 252 mil millones de dólares en abril de 2022,2​ Musk es la persona más rica del mundo según el índice de multimillonarios de Bloomberg y la lista de multimillonarios en tiempo real de Forbes.</p>
-   
+    <p style="text-align: justify; color:rgb(191, 0, 255);"><a class="p2">Elon Reeve Musk (Pretoria, 28 de junio de 1971) es un <em>empresario, inversionista y magnate estadounidense de origen sudafricano</em>. <strong>Es el fundador, consejero delegado e ingeniero jefe de SpaceX; inversor ángel, <em>CEO y arquitecto de productos de Tesla, Inc</em></strong>; fundador de The Boring Company; y cofundador de Neuralink y OpenAI. Con un patrimonio neto estimado en unos 252 mil millones de dólares en abril de 2022,2​ Musk es la persona más rica del mundo según el índice de multimillonarios de Bloomberg y la lista de multimillonarios en tiempo real de ForbesElon Reeve Musk (Pretoria, 28 de junio de 1971) es un empresario, inversionista y magnate estadounidense de origen sudafricano. Es el fundador, consejero delegado e ingeniero jefe de SpaceX; inversor ángel, CEO y arquitecto de productos de Tesla, Inc; fundador de The Boring Company; y cofundador de Neuralink y OpenAI. Con un patrimonio neto estimado en unos 252 mil millones de dólares en abril de 2022,2​ Musk es la persona más rica del mundo según el índice de multimillonarios de Bloomberg y la lista de multimillonarios en tiempo real de Forbes.</p></a>
     
     <h2 style="color: orange">SpaceX</h2>
     
-    <p style="text-align: justify; color:blue ">En 2002, Elon Musk comenzó a investigar la viabilidad de mandar un vehículo a Marte. Cada cohete Delta-2 costaba entre 50 y 60 millones de dólares por misión y se necesitaban al menos dos misiones. Realizó tres viajes a Rusia e intentó comprar sin éxito cohetes intercontinentales ICBM sin las cabezas nucleares.24​40​ En el avión de vuelta con sus socios Mike Griffin y Jim Cantrell, Elon les mostró una hoja de cálculo en la que había trabajado durante meses. Era el primer prototipo de SpaceX donde detallaba todas las partes del negocio. En el diseño usaría cohetes reutilizables. Tendría una estrategia de integración vertical. En las necesidades de los clientes había un nicho emergente para lanzar satélites pequeños. Analizaba criterios de costes y beneficios. El modelo de negocio sería el de una empresa aeroespacial privada. También había estudiado la física detrás de la estructura del cohete y el lanzamiento</p>
-
+    <p style="text-align: justify; color:blue "><a class="p1" class="p3" >En 2002, Elon Musk comenzó a investigar la viabilidad de mandar un vehículo a Marte. Cada cohete Delta-2 costaba entre 50 y 60 millones de dólares por misión y se necesitaban al menos dos misiones. Realizó tres viajes a Rusia e intentó comprar sin éxito cohetes intercontinentales ICBM sin las cabezas nucleares.24​40​ En el avión de vuelta con sus socios Mike Griffin y Jim Cantrell, Elon les mostró una hoja de cálculo en la que había trabajado durante meses. Era el primer prototipo de SpaceX donde detallaba todas las partes del negocio. En el diseño usaría cohetes reutilizables. Tendría una estrategia de integración vertical. En las necesidades de los clientes había un nicho emergente para lanzar satélites pequeños. Analizaba criterios de costes y beneficios. El modelo de negocio sería el de una empresa aeroespacial privada. También había estudiado la física detrás de la estructura del cohete y el lanzamiento</p></a></a>
 
     <h3 style="color: rgb(0, 0, 0)">Starlink</h3>
 
@@ -40,9 +57,9 @@
     <h3>Otras empresas</h3>
     
     <ol>
-        <li>Zip2</li>
-        <li>X.com</li>
-        <li>PayPal</li>
+        <li><a class="l1" href="https://es.wikipedia.org/wiki/Zip2">Zip2</a></li>
+        <li><a class="l2" href="https://es.wikipedia.org/wiki/x.com">X.com</a></li>
+        <li><a class="l3" href="https://es.wikipedia.org/wiki/PayPal">PayPal</a></li>
     </ol>
 
     <h2>
